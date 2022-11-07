@@ -1,3 +1,6 @@
+server:
+  port: 8080
+
 spring:
   datasource:
     url: jdbc:log4jdbc:mariadb://192.168.45.4:3306/test
@@ -22,6 +25,3 @@ spring:
           maxFileSize: 50MB
           maxRequestSize: 50MB
       open-in-view: false
-
-server:
-  port: 8080
